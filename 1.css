@@ -1,8 +1,4 @@
 
-@font-face {
-    font-family: coolvetica;
-    src: url(Coolvetica Rg.otf);
-}
 
 body{
     background-image: linear-gradient(to right,hsl(240, 100%, 70%), hsl(214, 100%, 50%) );
@@ -86,4 +82,5 @@ body{
     }
 
 }
+
 
