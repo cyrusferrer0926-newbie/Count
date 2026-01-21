@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: coolvetica;
+    src: url(fonts/coolvetica/Coolvetica\ Rg.otf);
+}
+
+body{
+    background-image: linear-gradient(to right,hsl(240, 100%, 70%), hsl(214, 100%, 50%) );
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#Heading{
+    font-size: 200%;
+    font-weight:bolder;
+    margin: 10px 10px 10px 10px;
+}
+#counter{
+    font-size: 5em;
+}
+#front{
+    border: solid 2px black;
+    border-radius: 6px;
+    width: 25%;
+    min-width: 20%;    
+    text-align: center;
+    justify-content: center;
+    font-family: coolvetica;
+    margin-top: 5%;
+    background-color: hsl(208, 95%, 83%);
+}
+#add{
+    justify-content: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 11%;
+    width: 20%;
+    margin: 0px 15% 0px 0px;
+}
+#add:hover {
+    background-color: hsl(240, 93%, 71%);
+    cursor: pointer;
+}
+#add:active{
+    background-color: white;
+}
+#dec{
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 11%;
+    width: 20%;
+    justify-content: center;
+}
+#dec:hover {
+    background-color: hsl(240, 93%, 71%);
+    cursor: pointer;
+}
+#dec:active{
+    background-color: white;
+}
+#savebtn{
+    display: flex;
+    justify-self: center;
+    justify-content:center;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 19%;
+    height: 5.2%;
+    max-width: 40px;
+}
+#pha{
+    margin-top:0px ;
+    margin-bottom: 11%;
+}
+@media (max-width:800px) {
+    #add{
+        width: 20%;
+        height: 7%;
+        border: 0% 10% 0% 0%;
+    }
+    #dec{
+        width: 20%;
+        height: 7%;
+        border: 0% 10% 0% 0%; 
+    }
+}
